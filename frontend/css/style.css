@@ -4,6 +4,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Hace que todas las imágenes sean responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .main-header {
     background-color: #FFE680;
 }
@@ -65,4 +71,38 @@ footer {
     background-color: #FFF4CC;
     padding: 30px;
     border-radius: 12px;
+}
+
+/* Ajustes para celulares y tablets */
+@media (max-width: 768px) {
+
+    .main-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+
+    .banner img {
+        max-height: 250px;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    .formulario {
+        padding: 20px;
+    }
 }
