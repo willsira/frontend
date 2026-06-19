@@ -4,3 +4,27 @@ body {
 }
 
 article div p strong {color:blue}
+
+.hero {
+  background-color: #0a8dea;
+  color: #fff;
+  padding: 5rem 1.5rem 4rem;
+  text-align: center;
+}
+
+.hero h1 span {
+  color: #3879e8;
+}
+
+.btn-petmatch {
+  background-color: #6b28e8;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 700;
+  border: none;
+}
+
+.btn-petmatch:hover {
+  background-color: #2a54c9;
+  color: #fff;
+}
